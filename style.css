@@ -1,0 +1,372 @@
+@import url("reset.css");
+
+
+body{
+	margin: 0px;
+	background-color: #ffffff;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+header{
+	background: url("picto-light.png") repeat #383637;
+	height: 360px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+.aboutme p{
+	font-size: 50px;
+	text-align: center;
+	padding: 70px;
+
+}
+
+.portfolio .portfoliotitle{
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.social_networks{
+	
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+
+.SN{
+	background-color: #292828;
+}
+
+
+.sectiontitle {
+	font-size: 20px;
+	margin-top: 40px;
+	font-weight: bold;
+}
+
+.text_about img{
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	width: 400px;
+	height: 260px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: -30px;
+
+}
+
+.text_about p{
+	font-size: 15px;
+	float: right;
+	margin-right: 280px;
+	margin-left: 460px;
+	margin-bottom: 50px;
+	padding-left: 30px;
+}
+
+
+section {
+	width: 100%;
+
+}
+
+
+
+h1{
+	text-align: center;
+	font-size: 60px;
+	padding: 70px;
+	color: #FF168A;
+	font-weight: bold;
+}
+
+h2{
+	text-align: center;
+	color: #FF168A;
+}
+
+nav{
+	padding-top: 60px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+li {
+	 float: left;
+}
+
+li a {
+    display:  block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #FF168A;
+ }
+
+
+h3{
+	text-align: center;
+	color: #807E7E;
+	font-family: 'Quicksand', sans-serif;
+	padding: 80px;
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 60px;
+	margin-bottom: -60px;
+
+}
+
+h4{
+	font-weight: bold;
+	text-align: center;
+	font-size: 18px;
+
+}
+
+
+.bloc_1{
+	width: 30%;
+	font-size: 14px;
+	margin-right: 1%;
+	font-family: 'Quicksand', sans-serif;
+	display: inline-block;
+	margin-bottom: 60px;
+	background: #F0EDED;
+
+
+}
+
+.bloc_1 p{
+	padding: 8px;
+
+}
+
+.bloc_1 .img_bloc_1 {
+	width: 100%;
+}
+
+.bloc_articles {
+	padding: 100px;
+	width: 80%;
+	margin-left: 7%;
+}
+
+
+
+
+
+/*EXPERIENCE*/
+.experience {
+	margin-left: 1025px;
+	margin-right: 300px;
+	position: relative;
+	background: #fff;
+	border: 2px solid #f7639a;
+	border-radius: 6px;
+	padding: 20px 25px;
+	margin-bottom: 40px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.experience{
+	overflow: hidden;
+
+}
+
+.experience0{
+	display:block;
+	margin-top: 45px;
+	background-color: #f7639a;
+	border-radius: 50%;
+	height:80px;
+	width: 80px;
+	line-height:80px;
+}
+
+.BOX1{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.BOX{
+	
+	display: inline-block;
+	margin-left:-1000px;
+	margin-top: -130px;
+	vertical-align: middle;
+}
+
+
+.round_experience {
+	border-radius: 50%;
+	height: 200px;
+  	line-height: 200px;
+  	width: 200px;
+  	background-color: black;
+  	text-align: center;
+  	color: white;
+  	transition-property: background, border-radius;
+  	transition-duration: 1s;
+ 	transition-timing-function: linear;
+ 	cursor: pointer;
+ 	margin-left: 740px;
+ 	margin-bottom: 50px;
+}
+
+.round_experience:hover {
+  background: #f7639a;
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+/*PARCOURS SCOLAIRE*/
+.profess{
+	margin-left: 1025px;
+	margin-right: 300px;
+	position: relative;
+	background: #fff;
+	border: 2px solid #00E5DB;
+	border-radius: 6px;
+	padding: 20px 25px;
+	margin-bottom: 40px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.profess0{
+	display:block;
+	vertical-align: middle;
+	margin-left: 690px;
+	margin-top: -550px;
+	margin-bottom: 90px;
+
+}
+
+.profess1{
+	display: block;
+	margin-top: 45px;
+	background-color: #00E5DB;
+	border-radius: 50%;
+	height:80px;
+	width: 80px;
+	line-height:80px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.round_profess{
+	border-radius: 50%;
+	height: 200px;
+  	line-height: 200px;
+  	width: 200px;
+  	background-color: black;
+  	text-align: center;
+  	color: white;
+  	transition-property: background, border-radius;
+  	transition-duration: 1s;
+ 	transition-timing-function: linear;
+ 	cursor: pointer;
+ 	margin-left: 740px;
+ 	margin-bottom: 50px;
+
+}
+
+.round_profess:hover {
+  background: #00E5DB;
+  border-radius: 50%;
+  text-align: center;
+}
+
+/*SKILLS*/
+.skills{
+	padding-left: 200px;
+	background: #EDEDED;
+	
+}
+
+
+
+.skillstitle{
+	font-size: 40px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	padding-top: 60px;
+	text-align: center;
+	background: #EDEDED;
+	
+}
+
+.skillsname {
+	padding-top: 12px;
+}
+
+.boite{
+	padding: 100px;
+	display: inline-block;
+	margin-right: -90px;
+	margin-left: 50px; 	
+	vertical-align: middle;
+
+}
+
+
+
+h5{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+.icons {
+	text-align: center;
+	padding-top: 80px;
+	padding-left: 530px;
+} 
+
+.icons p{
+	margin-right: 70px;
+	font-weight: bold;
+	font-size: 40px;
+	padding-top: 50px;
+}
+
+footer {
+	
+	background: url("picto-light.png") repeat #383637;
+	height: 360px;
+
+
+}
+
+.scrollup{
+	background: #A3A3A3;
+	 border-radius: 50px;
+	 height: 30px;
+	 width: 30px;
+	 line-height: 30px;
+	 text-align: center;
+	 padding: 15px;
+	 margin-left: 800px;
+}
+
+
+   
+
+
+
+
